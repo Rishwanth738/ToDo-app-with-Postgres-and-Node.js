@@ -1,4 +1,4 @@
-### Permalist Project
+### ToDo app
 
 A full-stack **To-Do List Web Application** built with **Node.js**, **Express.js**, and **PostgreSQL**.  
 Supports CRUD operations with persistent storage and dynamic rendering via EJS.
