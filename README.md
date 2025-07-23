@@ -1,4 +1,4 @@
-### ToDo app
+# ToDo app
 
 A full-stack **To-Do List Web Application** built with **Node.js**, **Express.js**, and **PostgreSQL**.  
 Supports CRUD operations with persistent storage and dynamic rendering via EJS.
@@ -28,17 +28,17 @@ Supports CRUD operations with persistent storage and dynamic rendering via EJS.
 
 ## Setup Instructions
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/perm-list.git
 cd perm-list
 ```
-#2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
-#3. Configure Environment
+### 3. Configure Environment
 Create a .env file in the root directory:
 
 env
@@ -49,7 +49,7 @@ PG_DATABASE=To_Do
 PG_PASSWORD=your_password
 PG_PORT=5432
 ```
-#4. Initialize Database
+### 4. Initialize Database
 Ensure your PostgreSQL server is running with a database named To_Do Then run:
 
 sql
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS list (
   task TEXT NOT NULL
 );
 ```
-#5. Run the Server
+### 5. Run the Server
 ```bash
 
 node index.js
